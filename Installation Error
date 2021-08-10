@@ -1,0 +1,64 @@
+1. Problem: If you are seeing an error relating to licenses have not been accepted, e.g.
+
+
+Solution: First make sure that you have updated Android studio to the latest version.
+
+Next, you need to accept the Android studio licenses, see here: https://stackoverflow.com/questions/48604914/flutter-run-error-you-have-not-accepted-the-license-agreements
+
+
+
+2. Problem: Error after typing flutter --version and getting "not recognized as an internal or external command" e.g.
+
+
+Solution: First check that you've typed flutter --version with a space between flutter and --version.
+
+Next, Make sure you have added the path to the flutter/bin directory correctly as seen in this video lesson at the 4 minute time mark.
+
+
+
+3. Problem: If you are seeing an error relating to Error connecting to the service protocol. e.g.
+
+
+Solution: Downgrade your Android emulator to P instead of Q.
+
+See this link for more details: https://github.com/flutter/flutter/issues/32696
+
+
+
+4. Problem: If you are trying to create an Android emulator and get and error about "Intel HAXM" e.g.
+
+
+Solution: You need to enable virtualisation in your BIOS. See this: https://www.howtogeek.com/213795/how-to-enable-intel-vt-x-in-your-computers-bios-or-uefi-firmware/
+
+If that still doesn't work, try this: https://www.thecodecity.com/2017/01/intel-haxm-is-required-to-run-this-avd.html
+
+
+
+5. Problem: When you try to run an app and get an error about a SKIA shader compilation error. e.g.
+
+
+Solution: This seems to be an issue with the latest Flutter SDK rather than anything you've done. See the top answer here from Flavio to fix: https://www.udemy.com/course/flutter-bootcamp-with-dart/learn/lecture/14481776#questions/8414414
+
+Also see the discussion on the Flutter GitHub: https://github.com/flutter/flutter/issues/33018
+
+
+
+6. Problem: Getting an error from gradle when you try to run your app about Java heap space. e.g.
+
+
+Solution: Check out this StackOverflow answer on this exact topic: https://stackoverflow.com/questions/41645747/android-studio-gradle-build-failing-java-heap-space
+
+
+7. Other Problems: Programming and development always involve lots of problems and solving problems is the main skill. If you get a different problem, be sure to check out all of these places where other flutter developers can help you:
+
+https://github.com/flutter/flutter/issues?q=is%3Aissue+is%3Aopen
+
+https://groups.google.com/forum/#!forum/flutter-dev
+
+https://stackoverflow.com/tags/flutter
+
+https://fluttercommunity.slack.com/join/shared_invite/enQtODIxOTg4NTg3MDcyLTM2Y2YwNDVhOGIzZDFhOTg2MGY5OTIyMzBlNTc5YzgzOTZjNTZiNzQzYTI1YTdkODYxODYwYjE0MTVkNzhiYzE
+
+And remember always show add a screenshot of your error, otherwise it will be really hard to help
+
+Credit to: https://github.com/londonappbrewery/Flutter-Course-Resources
